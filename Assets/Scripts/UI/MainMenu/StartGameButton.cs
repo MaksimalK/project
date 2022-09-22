@@ -22,7 +22,7 @@ namespace Game.UI.MainMenu
 
         private void LoadScene()
         {
-            StartCoroutine(Load("SampleScene"));
+            StartCoroutine(Load("1"));
         }
 
         private IEnumerator Load(String name)
