@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1805131416692960520}
   - component: {fileID: 1805131416692960523}
   m_Layer: 0
-  m_Name: MAnager
+  m_Name: Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,6 @@ MonoBehaviour:
   spawnPoint: {fileID: 8355038069043686913, guid: 904a01b58f58e5a4badb2e0f152d7333, type: 3}
   enemies:
   - {fileID: 4621540642601072411, guid: 8b1e234569155b54ea010e5687671b0c, type: 3}
-  maxEnemiesOnScreen: 10
+  maxEnemiesOnScreen: 1
   totalEnemies: 10
   enemiesPerSpawn: 1

@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Menager : MonoBehaviour
+public class Manager : MonoBehaviour
 {
-    public static Menager instance = null;
-     
+    public static Manager instance = null;
+
     public GameObject spawnPoint;
     public GameObject[] enemies;
     public int maxEnemiesOnScreen;
@@ -14,15 +14,54 @@ public class Menager : MonoBehaviour
 
     int enemiesOnScreen = 0;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
+
+    void Start()
+    {
+        Spawn();
+    }
+
+
     void Update()
     {
-        
+
+    }
+
+    void Spawn()
+    {
+        if (enemiesPerSpawn > 0 && enemiesOnScreen < totalEnemies)
+        {
+            for (int i = 0; i < enemiesOnScreen; i++)
+            {
+                if (enemiesOnScreen < maxEnemiesOnScreen)
+                {
+                    GameObject newEnemy = Instantiate(enemies[0]) as GameObject;
+                    newEnemy.transform.position = spawnPoint.transform.position;
+                    enemiesOnScreen += 1;
+                }
+            }
+        }
+    }
+
+
+    public void removeEnemyFromScreen()
+    {
+        if (enemiesOnScreen > 0)
+        {
+            enemiesOnScreen -= 1;
+        }
     }
 }

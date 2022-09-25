@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4621540642601072412}
+  - component: {fileID: 6843955738982111072}
   - component: {fileID: 4621540642601072413}
   - component: {fileID: 4621540642601072410}
   - component: {fileID: 4910911835887485925}
@@ -34,6 +35,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6843955738982111072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4621540642601072411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1a2467aea5b1b41a0fd241ca6a64a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: 0
+  exit: {fileID: 7930638810897440452, guid: ce7afe43878f79f4c8a039789266a785, type: 3}
+  wayPoints:
+  - {fileID: 847179637196298906, guid: a0b3a6f987cbf6a429044f0a8d30a268, type: 3}
+  - {fileID: 5002857730811366274, guid: 568f21ac0d39de94085c4761bcc20da1, type: 3}
+  - {fileID: 9126436394423511067, guid: 7ef95c7e79f31564ba0a7a0f0a57f529, type: 3}
+  navigation: 1
 --- !u!212 &4621540642601072413
 SpriteRenderer:
   m_ObjectHideFlags: 0
