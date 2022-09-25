@@ -461,9 +461,10 @@ GameObject:
   m_Component:
   - component: {fileID: 130885832}
   - component: {fileID: 130885833}
-  m_Layer: 0
+  - component: {fileID: 130885834}
+  m_Layer: 8
   m_Name: sandy road (2)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -533,6 +534,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &130885834
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130885831}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &156123420
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,9 +570,10 @@ GameObject:
   m_Component:
   - component: {fileID: 156123422}
   - component: {fileID: 156123421}
-  m_Layer: 0
+  - component: {fileID: 156123423}
+  m_Layer: 8
   m_Name: sandy road (7)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -615,6 +643,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &156123423
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156123420}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &193186918
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,9 +680,9 @@ GameObject:
   - component: {fileID: 193186921}
   - component: {fileID: 193186920}
   - component: {fileID: 193186919}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (3)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -724,127 +778,22 @@ Transform:
   m_Father: {fileID: 1202412310}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &203045041
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 203045042}
-  - component: {fileID: 203045045}
-  - component: {fileID: 203045044}
-  - component: {fileID: 203045043}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &203045042
+--- !u!224 &203045042 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+  m_PrefabInstance: {fileID: 3754065358306511770}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203045041}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 0.24533668, y: 0.6375, z: 1}
-  m_Children:
-  - {fileID: 2058729309}
-  m_Father: {fileID: 601379721}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &203045043
+--- !u!114 &203045046 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7990812816728371380, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+  m_PrefabInstance: {fileID: 3754065358306511770}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203045041}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 300b0361602c96e4e8809de591bad48a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 203045044}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &203045044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203045041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &203045045
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 203045041}
-  m_CullTransparentMesh: 1
 --- !u!1 &209099857
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,9 +804,10 @@ GameObject:
   m_Component:
   - component: {fileID: 209099858}
   - component: {fileID: 209099859}
-  m_Layer: 0
+  - component: {fileID: 209099860}
+  m_Layer: 8
   m_Name: sandy road (2)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -927,6 +877,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &209099860
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209099857}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &212420556
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,9 +913,10 @@ GameObject:
   m_Component:
   - component: {fileID: 212420557}
   - component: {fileID: 212420558}
-  m_Layer: 0
+  - component: {fileID: 212420559}
+  m_Layer: 8
   m_Name: sandy road (2)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1009,6 +986,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &212420559
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212420556}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &227482621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,9 +1104,10 @@ GameObject:
   m_Component:
   - component: {fileID: 242521040}
   - component: {fileID: 242521041}
-  m_Layer: 0
+  - component: {fileID: 242521042}
+  m_Layer: 8
   m_Name: sandy road (4)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1173,6 +1177,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &242521042
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242521039}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &291266034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,9 +1295,10 @@ GameObject:
   m_Component:
   - component: {fileID: 298317511}
   - component: {fileID: 298317510}
-  m_Layer: 0
+  - component: {fileID: 298317512}
+  m_Layer: 8
   m_Name: sandy road (10)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1337,6 +1368,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &298317512
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298317509}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &335746558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,9 +1404,10 @@ GameObject:
   m_Component:
   - component: {fileID: 335746560}
   - component: {fileID: 335746559}
-  m_Layer: 0
+  - component: {fileID: 335746561}
+  m_Layer: 8
   m_Name: sandy road (2)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1419,6 +1477,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &335746561
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335746558}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &363676487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,9 +1513,10 @@ GameObject:
   m_Component:
   - component: {fileID: 363676488}
   - component: {fileID: 363676489}
-  m_Layer: 0
+  - component: {fileID: 363676490}
+  m_Layer: 8
   m_Name: sandy road (3)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1501,6 +1586,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &363676490
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363676487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &390629540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,9 +1622,10 @@ GameObject:
   m_Component:
   - component: {fileID: 390629541}
   - component: {fileID: 390629542}
-  m_Layer: 0
+  - component: {fileID: 390629543}
+  m_Layer: 8
   m_Name: sandy road (4)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1583,6 +1695,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &390629543
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390629540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &422769365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,9 +1731,10 @@ GameObject:
   m_Component:
   - component: {fileID: 422769366}
   - component: {fileID: 422769367}
-  m_Layer: 0
+  - component: {fileID: 422769368}
+  m_Layer: 8
   m_Name: sandy road (1)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1665,6 +1804,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &422769368
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422769365}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &429367047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,7 +1842,7 @@ GameObject:
   - component: {fileID: 429367048}
   m_Layer: 0
   m_Name: Square (1)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1864,9 +2029,10 @@ GameObject:
   m_Component:
   - component: {fileID: 467584888}
   - component: {fileID: 467584887}
-  m_Layer: 0
+  - component: {fileID: 467584889}
+  m_Layer: 8
   m_Name: sandy road
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1936,6 +2102,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &467584889
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467584886}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &564134889
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,9 +2403,10 @@ GameObject:
   m_Component:
   - component: {fileID: 685466054}
   - component: {fileID: 685466053}
-  m_Layer: 0
+  - component: {fileID: 685466055}
+  m_Layer: 8
   m_Name: sandy road (5)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2283,6 +2476,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &685466055
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685466052}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &702314780
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,9 +2600,9 @@ GameObject:
   - component: {fileID: 708194698}
   - component: {fileID: 708194697}
   - component: {fileID: 708194696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (10)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2489,9 +2708,10 @@ GameObject:
   m_Component:
   - component: {fileID: 736612262}
   - component: {fileID: 736612263}
-  m_Layer: 0
+  - component: {fileID: 736612264}
+  m_Layer: 8
   m_Name: sandy road
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2561,6 +2781,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &736612264
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736612261}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!4 &771068361 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1805131416692960520, guid: 1224d41e306141740a32da60509ba370, type: 3}
@@ -2659,9 +2905,9 @@ GameObject:
   - component: {fileID: 783070439}
   - component: {fileID: 783070438}
   - component: {fileID: 783070437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (14)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2768,9 +3014,9 @@ GameObject:
   - component: {fileID: 811071019}
   - component: {fileID: 811071018}
   - component: {fileID: 811071017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2876,9 +3122,10 @@ GameObject:
   m_Component:
   - component: {fileID: 827432454}
   - component: {fileID: 827432455}
-  m_Layer: 0
+  - component: {fileID: 827432456}
+  m_Layer: 8
   m_Name: sandy road (3)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2948,6 +3195,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &827432456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827432453}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &832146105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,9 +3231,10 @@ GameObject:
   m_Component:
   - component: {fileID: 832146107}
   - component: {fileID: 832146106}
-  m_Layer: 0
+  - component: {fileID: 832146108}
+  m_Layer: 8
   m_Name: sandy road (8)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3030,6 +3304,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &832146108
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832146105}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &841702167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3040,9 +3340,10 @@ GameObject:
   m_Component:
   - component: {fileID: 841702168}
   - component: {fileID: 841702169}
-  m_Layer: 0
+  - component: {fileID: 841702170}
+  m_Layer: 8
   m_Name: sandy road (1)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3112,6 +3413,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &841702170
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841702167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &867655882
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,9 +3449,10 @@ GameObject:
   m_Component:
   - component: {fileID: 867655884}
   - component: {fileID: 867655883}
-  m_Layer: 0
+  - component: {fileID: 867655885}
+  m_Layer: 8
   m_Name: sandy road (13)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3194,6 +3522,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &867655885
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867655882}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &873916702
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,6 +3732,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 771068361}
+  - {fileID: 1601948866}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -3473,9 +3828,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1021737738}
   - component: {fileID: 1021737739}
-  m_Layer: 0
+  - component: {fileID: 1021737740}
+  m_Layer: 8
   m_Name: sandy road (2)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3545,6 +3901,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1021737740
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021737737}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1057820287
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,9 +3937,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1057820288}
   - component: {fileID: 1057820289}
-  m_Layer: 0
+  - component: {fileID: 1057820290}
+  m_Layer: 8
   m_Name: sandy road
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3627,6 +4010,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1057820290
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057820287}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1076306587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3719,9 +4128,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1129666034}
   - component: {fileID: 1129666033}
-  m_Layer: 0
+  - component: {fileID: 1129666035}
+  m_Layer: 8
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3791,6 +4201,32 @@ Transform:
   m_Father: {fileID: 873916703}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1129666035
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129666032}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0.5, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.23, y: 2.69}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.23, y: 2.69}
+  m_EdgeRadius: 0
 --- !u!1 &1130176543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3883,9 +4319,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1134835424}
   - component: {fileID: 1134835423}
-  m_Layer: 0
+  - component: {fileID: 1134835425}
+  m_Layer: 8
   m_Name: sandy road (12)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3955,6 +4392,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1134835425
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134835422}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1153692336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3965,9 +4428,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1153692337}
   - component: {fileID: 1153692338}
-  m_Layer: 0
+  - component: {fileID: 1153692339}
+  m_Layer: 8
   m_Name: sandy road (3)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4037,6 +4501,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1153692339
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153692336}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1177358645
 GameObject:
   m_ObjectHideFlags: 0
@@ -4048,9 +4538,9 @@ GameObject:
   - component: {fileID: 1177358648}
   - component: {fileID: 1177358647}
   - component: {fileID: 1177358646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (6)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4157,9 +4647,9 @@ GameObject:
   - component: {fileID: 1193952754}
   - component: {fileID: 1193952753}
   - component: {fileID: 1193952752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (5)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4311,9 +4801,9 @@ GameObject:
   - component: {fileID: 1208855755}
   - component: {fileID: 1208855754}
   - component: {fileID: 1208855753}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (4)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4419,9 +4909,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1292691577}
   - component: {fileID: 1292691576}
-  m_Layer: 0
+  - component: {fileID: 1292691578}
+  m_Layer: 8
   m_Name: sandy road (3)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4491,6 +4982,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1292691578
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292691575}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1342616950
 GameObject:
   m_ObjectHideFlags: 0
@@ -4501,9 +5018,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1342616951}
   - component: {fileID: 1342616952}
-  m_Layer: 0
+  - component: {fileID: 1342616953}
+  m_Layer: 8
   m_Name: sandy road
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4573,6 +5091,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1342616953
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342616950}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1349853022
 GameObject:
   m_ObjectHideFlags: 0
@@ -4584,9 +5128,9 @@ GameObject:
   - component: {fileID: 1349853025}
   - component: {fileID: 1349853024}
   - component: {fileID: 1349853023}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (7)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4692,9 +5236,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1382509265}
   - component: {fileID: 1382509266}
-  m_Layer: 0
+  - component: {fileID: 1382509267}
+  m_Layer: 8
   m_Name: sandy road (4)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4764,6 +5309,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1382509267
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382509264}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1400387358
 GameObject:
   m_ObjectHideFlags: 0
@@ -4774,9 +5345,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1400387360}
   - component: {fileID: 1400387359}
-  m_Layer: 0
+  - component: {fileID: 1400387361}
+  m_Layer: 8
   m_Name: sandy road (1)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4846,6 +5418,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1400387361
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400387358}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1411492050
 GameObject:
   m_ObjectHideFlags: 0
@@ -4890,9 +5488,9 @@ GameObject:
   - component: {fileID: 1440100758}
   - component: {fileID: 1440100757}
   - component: {fileID: 1440100756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (12)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4998,9 +5596,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1440651968}
   - component: {fileID: 1440651967}
-  m_Layer: 0
+  - component: {fileID: 1440651969}
+  m_Layer: 8
   m_Name: sandy road (9)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5070,6 +5669,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1440651969
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440651966}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1498141375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5080,9 +5705,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1498141377}
   - component: {fileID: 1498141376}
-  m_Layer: 0
+  - component: {fileID: 1498141378}
+  m_Layer: 8
   m_Name: sandy road (4)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5152,6 +5778,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1498141378
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498141375}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1512392704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5162,9 +5814,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1512392706}
   - component: {fileID: 1512392705}
-  m_Layer: 0
+  - component: {fileID: 1512392707}
+  m_Layer: 8
   m_Name: sandy road (6)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5234,6 +5887,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1512392707
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512392704}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1564577110
 GameObject:
   m_ObjectHideFlags: 0
@@ -5326,9 +6005,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1577940340}
   - component: {fileID: 1577940341}
-  m_Layer: 0
+  - component: {fileID: 1577940342}
+  m_Layer: 8
   m_Name: sandy road (1)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5398,6 +6078,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1577940342
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577940339}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1598194515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5409,9 +6115,9 @@ GameObject:
   - component: {fileID: 1598194518}
   - component: {fileID: 1598194517}
   - component: {fileID: 1598194516}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (13)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5507,6 +6213,11 @@ Transform:
   m_Father: {fileID: 1202412310}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1601948866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+  m_PrefabInstance: {fileID: 8590411222467486168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1607928595
 GameObject:
   m_ObjectHideFlags: 0
@@ -5600,9 +6311,9 @@ GameObject:
   - component: {fileID: 1637995814}
   - component: {fileID: 1637995813}
   - component: {fileID: 1637995812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (1)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5708,9 +6419,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1647981314}
   - component: {fileID: 1647981315}
-  m_Layer: 0
+  - component: {fileID: 1647981316}
+  m_Layer: 8
   m_Name: sandy road (3)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5780,6 +6492,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1647981316
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647981313}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1666825400
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,9 +6528,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1666825402}
   - component: {fileID: 1666825401}
-  m_Layer: 0
+  - component: {fileID: 1666825403}
+  m_Layer: 8
   m_Name: sandy road (11)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5862,6 +6601,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1666825403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666825400}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1708920259
 GameObject:
   m_ObjectHideFlags: 0
@@ -5873,9 +6638,9 @@ GameObject:
   - component: {fileID: 1708920262}
   - component: {fileID: 1708920261}
   - component: {fileID: 1708920260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (11)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5982,9 +6747,9 @@ GameObject:
   - component: {fileID: 1748670469}
   - component: {fileID: 1748670468}
   - component: {fileID: 1748670467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (8)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6090,9 +6855,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1807736164}
   - component: {fileID: 1807736165}
-  m_Layer: 0
+  - component: {fileID: 1807736166}
+  m_Layer: 8
   m_Name: sandy road (4)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6162,6 +6928,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1807736166
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807736163}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1844722894
 GameObject:
   m_ObjectHideFlags: 0
@@ -6436,9 +7228,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1873620143}
   - component: {fileID: 1873620142}
-  m_Layer: 0
+  - component: {fileID: 1873620144}
+  m_Layer: 8
   m_Name: sandy road (14)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6508,6 +7301,32 @@ Transform:
   m_Father: {fileID: 431587398}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1873620144
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873620141}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &1950561615
 GameObject:
   m_ObjectHideFlags: 0
@@ -6518,9 +7337,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1950561616}
   - component: {fileID: 1950561617}
-  m_Layer: 0
+  - component: {fileID: 1950561618}
+  m_Layer: 8
   m_Name: sandy road
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6590,6 +7410,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1950561618
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950561615}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1001 &1960018650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6658,9 +7504,9 @@ GameObject:
   - component: {fileID: 1971173056}
   - component: {fileID: 1971173055}
   - component: {fileID: 1971173054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (2)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7138,85 +7984,6 @@ Transform:
   m_Father: {fileID: 1976376945}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2058729308
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2058729309}
-  - component: {fileID: 2058729311}
-  - component: {fileID: 2058729310}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2058729309
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058729308}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 203045042}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2058729310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058729308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Button
---- !u!222 &2058729311
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058729308}
-  m_CullTransparentMesh: 1
 --- !u!1 &2076234304
 GameObject:
   m_ObjectHideFlags: 0
@@ -7228,9 +7995,9 @@ GameObject:
   - component: {fileID: 2076234307}
   - component: {fileID: 2076234306}
   - component: {fileID: 2076234305}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 174272_0 (9)
-  m_TagString: Untagged
+  m_TagString: TowerPlace
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7336,9 +8103,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2135784619}
   - component: {fileID: 2135784620}
-  m_Layer: 0
+  - component: {fileID: 2135784621}
+  m_Layer: 8
   m_Name: sandy road (1)
-  m_TagString: Untagged
+  m_TagString: Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7408,6 +8176,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2135784621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135784618}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.28, y: 0.28}
+    newSize: {x: 0.28, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.28, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1001 &367283698763417727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7527,6 +8321,139 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 847179637196298906, guid: a0b3a6f987cbf6a429044f0a8d30a268, type: 3}
   m_PrefabInstance: {fileID: 1246781569368347410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3754065358306511770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 601379721}
+    m_Modifications:
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455272, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3391530899176109986, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectedTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TowerShop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 203045046}
+    - target: {fileID: 3754065358507455273, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: ButtonTower, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455275, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_Name
+      value: First
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754065358507455275, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
+      propertyPath: m_TagString
+      value: Tower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25cdf03e56778394ba09daac2e8ad1bd, type: 3}
 --- !u!4 &4246044911529971575 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9126436394423511067, guid: 7ef95c7e79f31564ba0a7a0f0a57f529, type: 3}
@@ -7594,3 +8521,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ef95c7e79f31564ba0a7a0f0a57f529, type: 3}
+--- !u!1001 &8590411222467486168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 905266127}
+    m_Modifications:
+    - target: {fileID: 1946022345033884288, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_Name
+      value: TowerShop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.1723862
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 32.58805
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 83.74022
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000023841855
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892525902267079913, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8029ba22e70987342a01f9b41a69fb67, type: 3}
