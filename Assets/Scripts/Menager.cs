@@ -7,7 +7,7 @@ public class Menager : MonoBehaviour
     public GameObject spawnPoint;
     public GameObject[] enemies;
     public int maxEnemiesOnScreen;
-    public int TotalEnemies;
+    public int totalEnemies;
     public int enemiesPerSpawn;
 
     int enemiesOnScreen = 0;
