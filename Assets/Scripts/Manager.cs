@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Manager : MonoBehaviour
+public class Menager : MonoBehaviour
 {
-    public static Manager instance = null;
+    public static Menager instance = null;
      
     public GameObject spawnPoint;
     public GameObject[] enemies;
