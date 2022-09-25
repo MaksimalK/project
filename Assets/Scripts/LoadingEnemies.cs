@@ -1,16 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
-public class LoadingEnemies : MonoBehaviour
+public class LoadingEnemies <M>: MonoBehaviour where M: MonoBehaviour
 {
-    public GameObject manager;
+    private static M instance;
 
-    void Awake()
+    public static M Instance
     {
-        if (Manager.instance == null)
+        get
         {
-            Instantiate(manager);
+            if (instance == null)
+            {
+                instance = FindObjectOfType<M>();
+            }
+            else if (instance = FindObjectOfType<M>())
+            {
+                Destroy(FindObjectOfType<M>());
+            }
+
+            DontDestroyOnLoad(FindObjectOfType<M>());
+
+            return instance;
         }
     }
 }

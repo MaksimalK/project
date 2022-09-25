@@ -2,45 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Manager : MonoBehaviour
+public class Manager : LoadingEnemies<Manager>
 {
-    public static Manager instance = null;
 
-    public GameObject spawnPoint;
-    public GameObject[] enemies;
-    public int maxEnemiesOnScreen;
-    public int totalEnemies;
-    public int enemiesPerSpawn;
+    [SerializeField]
+    GameObject spawnPoint;
+    [SerializeField]
+    GameObject[] enemies;
+    [SerializeField]
+    int maxEnemiesOnScreen;
+    [SerializeField]
+    int totalEnemies;
+    [SerializeField]
+    int enemiesPerSpawn;
+
 
     int enemiesOnScreen = 0;
 
-    void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
+    const float spawnDelay = 0.5f;
 
-        DontDestroyOnLoad(gameObject);
-    }
+    
 
 
     void Start()
     {
-        Spawn();
+        StartCoroutine(Spawn());
     }
 
 
-    void Update()
-    {
-
-    }
-
-    void Spawn()
+   
+    IEnumerator Spawn()
     {
         if (enemiesPerSpawn > 0 && enemiesOnScreen < totalEnemies)
         {
@@ -53,6 +44,9 @@ public class Manager : MonoBehaviour
                     enemiesOnScreen += 1;
                 }
             }
+
+            yield return new WaitForSeconds(spawnDelay);
+            StartCoroutine(Spawn());
         }
     }
 
