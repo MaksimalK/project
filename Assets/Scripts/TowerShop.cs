@@ -24,8 +24,10 @@ public class TowerShop : LoadingEnemies<TowerShop>
             if (hit.collider.tag == "TowerPlace")
             {
                 PlaceTower(hit);
-            }
 
+                Debug.Log("1");
+            }
+            Debug.Log("2");
         }
     }
 
@@ -35,8 +37,10 @@ public class TowerShop : LoadingEnemies<TowerShop>
         {
             GameObject newTower = Instantiate(buttonTowerPressed.TowerObject);
             newTower.transform.position = hit.transform.position;
+
+            Debug.Log("3");
         }
-        
+
     }
 
     public void SelectedTower(ButtonTower towerSelected)

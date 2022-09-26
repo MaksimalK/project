@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class LoadingEnemies <M>: MonoBehaviour where M: MonoBehaviour
 {
-    private static M instance;
+    public static M instance;
 
     public static M Instance
     {
@@ -21,6 +21,7 @@ public class LoadingEnemies <M>: MonoBehaviour where M: MonoBehaviour
             DontDestroyOnLoad(FindObjectOfType<M>());
 
             return instance;
+
         }
     }
 }
